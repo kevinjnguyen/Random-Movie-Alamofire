@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCD317FA3B694CA764009A73 /* Pods_Movie_Search_Alamo_Fire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66BB6250CB1CA5BE4B363EAC /* Pods_Movie_Search_Alamo_Fire.framework */; };
+		EAE240C31C9500E10094DCAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE240C21C9500E10094DCAD /* AppDelegate.swift */; };
+		EAE240C51C9500E10094DCAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE240C41C9500E10094DCAD /* ViewController.swift */; };
+		EAE240C81C9500E10094DCAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE240C61C9500E10094DCAD /* Main.storyboard */; };
+		EAE240CA1C9500E10094DCAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE240C91C9500E10094DCAD /* Assets.xcassets */; };
+		EAE240CD1C9500E10094DCAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE240CB1C9500E10094DCAD /* LaunchScreen.storyboard */; };
+		EAE240D81C9500E10094DCAD /* Movie_Search_Alamo_FireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE240D71C9500E10094DCAD /* Movie_Search_Alamo_FireTests.swift */; };
+		EAE240E31C9500E10094DCAD /* Movie_Search_Alamo_FireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE240E21C9500E10094DCAD /* Movie_Search_Alamo_FireUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAE240D41C9500E10094DCAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAE240B71C9500E10094DCAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAE240BE1C9500E10094DCAD;
+			remoteInfo = "Movie Search Alamo Fire";
+		};
+		EAE240DF1C9500E10094DCAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAE240B71C9500E10094DCAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAE240BE1C9500E10094DCAD;
+			remoteInfo = "Movie Search Alamo Fire";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2507A48DE0CE0D0FEC3F3970 /* Pods-Movie Search Alamo Fire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movie Search Alamo Fire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Movie Search Alamo Fire/Pods-Movie Search Alamo Fire.debug.xcconfig"; sourceTree = "<group>"; };
+		619A6BAC772E3529DE0290DC /* Pods-Movie Search Alamo Fire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movie Search Alamo Fire.release.xcconfig"; path = "Pods/Target Support Files/Pods-Movie Search Alamo Fire/Pods-Movie Search Alamo Fire.release.xcconfig"; sourceTree = "<group>"; };
+		66BB6250CB1CA5BE4B363EAC /* Pods_Movie_Search_Alamo_Fire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movie_Search_Alamo_Fire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE240BF1C9500E10094DCAD /* Movie Search Alamo Fire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movie Search Alamo Fire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE240C21C9500E10094DCAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAE240C41C9500E10094DCAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAE240C71C9500E10094DCAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAE240C91C9500E10094DCAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAE240CC1C9500E10094DCAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAE240CE1C9500E10094DCAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE240D31C9500E10094DCAD /* Movie Search Alamo FireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Movie Search Alamo FireTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE240D71C9500E10094DCAD /* Movie_Search_Alamo_FireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie_Search_Alamo_FireTests.swift; sourceTree = "<group>"; };
+		EAE240D91C9500E10094DCAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE240DE1C9500E10094DCAD /* Movie Search Alamo FireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Movie Search Alamo FireUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE240E21C9500E10094DCAD /* Movie_Search_Alamo_FireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie_Search_Alamo_FireUITests.swift; sourceTree = "<group>"; };
+		EAE240E41C9500E10094DCAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAE240BC1C9500E10094DCAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD317FA3B694CA764009A73 /* Pods_Movie_Search_Alamo_Fire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE240D01C9500E10094DCAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE240DB1C9500E10094DCAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D9D720F2AAC21DBD53935CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66BB6250CB1CA5BE4B363EAC /* Pods_Movie_Search_Alamo_Fire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D55D40B1229FB8926AC0465C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2507A48DE0CE0D0FEC3F3970 /* Pods-Movie Search Alamo Fire.debug.xcconfig */,
+				619A6BAC772E3529DE0290DC /* Pods-Movie Search Alamo Fire.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EAE240B61C9500E10094DCAD = {
+			isa = PBXGroup;
+			children = (
+				EAE240C11C9500E10094DCAD /* Movie Search Alamo Fire */,
+				EAE240D61C9500E10094DCAD /* Movie Search Alamo FireTests */,
+				EAE240E11C9500E10094DCAD /* Movie Search Alamo FireUITests */,
+				EAE240C01C9500E10094DCAD /* Products */,
+				D55D40B1229FB8926AC0465C /* Pods */,
+				7D9D720F2AAC21DBD53935CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EAE240C01C9500E10094DCAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAE240BF1C9500E10094DCAD /* Movie Search Alamo Fire.app */,
+				EAE240D31C9500E10094DCAD /* Movie Search Alamo FireTests.xctest */,
+				EAE240DE1C9500E10094DCAD /* Movie Search Alamo FireUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAE240C11C9500E10094DCAD /* Movie Search Alamo Fire */ = {
+			isa = PBXGroup;
+			children = (
+				EAE240C21C9500E10094DCAD /* AppDelegate.swift */,
+				EAE240C41C9500E10094DCAD /* ViewController.swift */,
+				EAE240C61C9500E10094DCAD /* Main.storyboard */,
+				EAE240C91C9500E10094DCAD /* Assets.xcassets */,
+				EAE240CB1C9500E10094DCAD /* LaunchScreen.storyboard */,
+				EAE240CE1C9500E10094DCAD /* Info.plist */,
+			);
+			path = "Movie Search Alamo Fire";
+			sourceTree = "<group>";
+		};
+		EAE240D61C9500E10094DCAD /* Movie Search Alamo FireTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAE240D71C9500E10094DCAD /* Movie_Search_Alamo_FireTests.swift */,
+				EAE240D91C9500E10094DCAD /* Info.plist */,
+			);
+			path = "Movie Search Alamo FireTests";
+			sourceTree = "<group>";
+		};
+		EAE240E11C9500E10094DCAD /* Movie Search Alamo FireUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAE240E21C9500E10094DCAD /* Movie_Search_Alamo_FireUITests.swift */,
+				EAE240E41C9500E10094DCAD /* Info.plist */,
+			);
+			path = "Movie Search Alamo FireUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAE240BE1C9500E10094DCAD /* Movie Search Alamo Fire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE240E71C9500E10094DCAD /* Build configuration list for PBXNativeTarget "Movie Search Alamo Fire" */;
+			buildPhases = (
+				1550AD9B84F210DF5D44D639 /* Check Pods Manifest.lock */,
+				EAE240BB1C9500E10094DCAD /* Sources */,
+				EAE240BC1C9500E10094DCAD /* Frameworks */,
+				EAE240BD1C9500E10094DCAD /* Resources */,
+				A07180CF7592AA220E3E12F9 /* Embed Pods Frameworks */,
+				295093DF8A57A0909C2EBAE2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Movie Search Alamo Fire";
+			productName = "Movie Search Alamo Fire";
+			productReference = EAE240BF1C9500E10094DCAD /* Movie Search Alamo Fire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAE240D21C9500E10094DCAD /* Movie Search Alamo FireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE240EA1C9500E10094DCAD /* Build configuration list for PBXNativeTarget "Movie Search Alamo FireTests" */;
+			buildPhases = (
+				EAE240CF1C9500E10094DCAD /* Sources */,
+				EAE240D01C9500E10094DCAD /* Frameworks */,
+				EAE240D11C9500E10094DCAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAE240D51C9500E10094DCAD /* PBXTargetDependency */,
+			);
+			name = "Movie Search Alamo FireTests";
+			productName = "Movie Search Alamo FireTests";
+			productReference = EAE240D31C9500E10094DCAD /* Movie Search Alamo FireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAE240DD1C9500E10094DCAD /* Movie Search Alamo FireUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAE240ED1C9500E10094DCAD /* Build configuration list for PBXNativeTarget "Movie Search Alamo FireUITests" */;
+			buildPhases = (
+				EAE240DA1C9500E10094DCAD /* Sources */,
+				EAE240DB1C9500E10094DCAD /* Frameworks */,
+				EAE240DC1C9500E10094DCAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAE240E01C9500E10094DCAD /* PBXTargetDependency */,
+			);
+			name = "Movie Search Alamo FireUITests";
+			productName = "Movie Search Alamo FireUITests";
+			productReference = EAE240DE1C9500E10094DCAD /* Movie Search Alamo FireUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAE240B71C9500E10094DCAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Kevin Nguyen";
+				TargetAttributes = {
+					EAE240BE1C9500E10094DCAD = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 9WXYQL43AR;
+					};
+					EAE240D21C9500E10094DCAD = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 9WXYQL43AR;
+						TestTargetID = EAE240BE1C9500E10094DCAD;
+					};
+					EAE240DD1C9500E10094DCAD = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 9WXYQL43AR;
+						TestTargetID = EAE240BE1C9500E10094DCAD;
+					};
+				};
+			};
+			buildConfigurationList = EAE240BA1C9500E10094DCAD /* Build configuration list for PBXProject "Movie Search Alamo Fire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAE240B61C9500E10094DCAD;
+			productRefGroup = EAE240C01C9500E10094DCAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAE240BE1C9500E10094DCAD /* Movie Search Alamo Fire */,
+				EAE240D21C9500E10094DCAD /* Movie Search Alamo FireTests */,
+				EAE240DD1C9500E10094DCAD /* Movie Search Alamo FireUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAE240BD1C9500E10094DCAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE240CD1C9500E10094DCAD /* LaunchScreen.storyboard in Resources */,
+				EAE240CA1C9500E10094DCAD /* Assets.xcassets in Resources */,
+				EAE240C81C9500E10094DCAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE240D11C9500E10094DCAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE240DC1C9500E10094DCAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1550AD9B84F210DF5D44D639 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		295093DF8A57A0909C2EBAE2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Movie Search Alamo Fire/Pods-Movie Search Alamo Fire-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A07180CF7592AA220E3E12F9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Movie Search Alamo Fire/Pods-Movie Search Alamo Fire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAE240BB1C9500E10094DCAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE240C51C9500E10094DCAD /* ViewController.swift in Sources */,
+				EAE240C31C9500E10094DCAD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE240CF1C9500E10094DCAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE240D81C9500E10094DCAD /* Movie_Search_Alamo_FireTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE240DA1C9500E10094DCAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE240E31C9500E10094DCAD /* Movie_Search_Alamo_FireUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAE240D51C9500E10094DCAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAE240BE1C9500E10094DCAD /* Movie Search Alamo Fire */;
+			targetProxy = EAE240D41C9500E10094DCAD /* PBXContainerItemProxy */;
+		};
+		EAE240E01C9500E10094DCAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAE240BE1C9500E10094DCAD /* Movie Search Alamo Fire */;
+			targetProxy = EAE240DF1C9500E10094DCAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAE240C61C9500E10094DCAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAE240C71C9500E10094DCAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAE240CB1C9500E10094DCAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAE240CC1C9500E10094DCAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAE240E51C9500E10094DCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAE240E61C9500E10094DCAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAE240E81C9500E10094DCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2507A48DE0CE0D0FEC3F3970 /* Pods-Movie Search Alamo Fire.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Movie Search Alamo Fire/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinjnguyen.Movie-Search-Alamo-Fire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAE240E91C9500E10094DCAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 619A6BAC772E3529DE0290DC /* Pods-Movie Search Alamo Fire.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Movie Search Alamo Fire/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinjnguyen.Movie-Search-Alamo-Fire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EAE240EB1C9500E10094DCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Movie Search Alamo FireTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinjnguyen.Movie-Search-Alamo-FireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movie Search Alamo Fire.app/Movie Search Alamo Fire";
+			};
+			name = Debug;
+		};
+		EAE240EC1C9500E10094DCAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Movie Search Alamo FireTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinjnguyen.Movie-Search-Alamo-FireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movie Search Alamo Fire.app/Movie Search Alamo Fire";
+			};
+			name = Release;
+		};
+		EAE240EE1C9500E10094DCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Movie Search Alamo FireUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinjnguyen.Movie-Search-Alamo-FireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Movie Search Alamo Fire";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EAE240EF1C9500E10094DCAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Movie Search Alamo FireUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinjnguyen.Movie-Search-Alamo-FireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Movie Search Alamo Fire";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAE240BA1C9500E10094DCAD /* Build configuration list for PBXProject "Movie Search Alamo Fire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE240E51C9500E10094DCAD /* Debug */,
+				EAE240E61C9500E10094DCAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE240E71C9500E10094DCAD /* Build configuration list for PBXNativeTarget "Movie Search Alamo Fire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE240E81C9500E10094DCAD /* Debug */,
+				EAE240E91C9500E10094DCAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE240EA1C9500E10094DCAD /* Build configuration list for PBXNativeTarget "Movie Search Alamo FireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE240EB1C9500E10094DCAD /* Debug */,
+				EAE240EC1C9500E10094DCAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAE240ED1C9500E10094DCAD /* Build configuration list for PBXNativeTarget "Movie Search Alamo FireUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE240EE1C9500E10094DCAD /* Debug */,
+				EAE240EF1C9500E10094DCAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAE240B71C9500E10094DCAD /* Project object */;
+}

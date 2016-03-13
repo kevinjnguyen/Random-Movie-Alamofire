@@ -1,0 +1,6 @@
+framework module Pods_Movie_Search_Alamo_Fire {
+  umbrella header "Pods-Movie Search Alamo Fire-umbrella.h"
+
+  export *
+  module * { export * }
+}

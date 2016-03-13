@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Movie_Search_Alamo_Fire" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Movie Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="HSC-5o-YjI">
+                                <rect key="frame" x="20" y="28" width="335" height="93"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="93" id="f3G-0P-7gB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="41"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Movie description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="fQZ-UD-Oma">
+                                <rect key="frame" x="20" y="150" width="335" height="365"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="27"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yD0-c7-W43">
+                                <rect key="frame" x="20" y="556" width="335" height="91"/>
+                                <color key="backgroundColor" red="0.1176470588" green="0.53333333329999999" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="91" id="rwI-et-VHs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="23"/>
+                                <state key="normal" title="Random In Theaters">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="randomizeMovie:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FeX-pW-Sji"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HSC-5o-YjI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="0FU-v6-w5C"/>
+                            <constraint firstItem="fQZ-UD-Oma" firstAttribute="trailing" secondItem="HSC-5o-YjI" secondAttribute="trailing" id="5Ii-3F-ryX"/>
+                            <constraint firstItem="HSC-5o-YjI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="BkC-bc-PoX"/>
+                            <constraint firstAttribute="bottom" secondItem="yD0-c7-W43" secondAttribute="bottom" constant="20" symbolic="YES" id="EBn-h8-BHn"/>
+                            <constraint firstItem="yD0-c7-W43" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MSg-RC-ruR"/>
+                            <constraint firstItem="fQZ-UD-Oma" firstAttribute="top" secondItem="HSC-5o-YjI" secondAttribute="bottom" constant="29" id="U0i-Ao-EFW"/>
+                            <constraint firstItem="yD0-c7-W43" firstAttribute="top" secondItem="fQZ-UD-Oma" secondAttribute="bottom" constant="41" id="YBV-33-mqQ"/>
+                            <constraint firstItem="yD0-c7-W43" firstAttribute="leading" secondItem="fQZ-UD-Oma" secondAttribute="leading" id="e82-Tk-2ms"/>
+                            <constraint firstItem="HSC-5o-YjI" firstAttribute="leading" secondItem="fQZ-UD-Oma" secondAttribute="leading" id="fhc-kb-sPh"/>
+                            <constraint firstItem="yD0-c7-W43" firstAttribute="trailing" secondItem="fQZ-UD-Oma" secondAttribute="trailing" id="oO3-IO-LLu"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="labelMovieDescription" destination="fQZ-UD-Oma" id="YTE-VQ-yJ0"/>
+                        <outlet property="labelMovieTitle" destination="HSC-5o-YjI" id="Jdg-FM-PRH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.5" y="429.5"/>
+        </scene>
+    </scenes>
+</document>
