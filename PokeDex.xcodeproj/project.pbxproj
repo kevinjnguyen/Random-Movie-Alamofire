@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CCD317FA3B694CA764009A73 /* Pods_Movie_Search_Alamo_Fire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66BB6250CB1CA5BE4B363EAC /* Pods_Movie_Search_Alamo_Fire.framework */; };
+		EA03504D1D84ECF5009F8689 /* pokeball.png in Resources */ = {isa = PBXBuildFile; fileRef = EA03504C1D84ECF5009F8689 /* pokeball.png */; };
 		EAE240C31C9500E10094DCAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE240C21C9500E10094DCAD /* AppDelegate.swift */; };
 		EAE240C51C9500E10094DCAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE240C41C9500E10094DCAD /* ViewController.swift */; };
 		EAE240C81C9500E10094DCAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE240C61C9500E10094DCAD /* Main.storyboard */; };
@@ -38,17 +39,18 @@
 		2507A48DE0CE0D0FEC3F3970 /* Pods-Movie Search Alamo Fire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movie Search Alamo Fire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Movie Search Alamo Fire/Pods-Movie Search Alamo Fire.debug.xcconfig"; sourceTree = "<group>"; };
 		619A6BAC772E3529DE0290DC /* Pods-Movie Search Alamo Fire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movie Search Alamo Fire.release.xcconfig"; path = "Pods/Target Support Files/Pods-Movie Search Alamo Fire/Pods-Movie Search Alamo Fire.release.xcconfig"; sourceTree = "<group>"; };
 		66BB6250CB1CA5BE4B363EAC /* Pods_Movie_Search_Alamo_Fire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movie_Search_Alamo_Fire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAE240BF1C9500E10094DCAD /* Movie Search Alamo Fire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movie Search Alamo Fire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA03504C1D84ECF5009F8689 /* pokeball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pokeball.png; path = ../../../../Downloads/pokeball.png; sourceTree = "<group>"; };
+		EAE240BF1C9500E10094DCAD /* PokeDex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeDex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE240C21C9500E10094DCAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAE240C41C9500E10094DCAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EAE240C71C9500E10094DCAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EAE240C91C9500E10094DCAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAE240CC1C9500E10094DCAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAE240CE1C9500E10094DCAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAE240D31C9500E10094DCAD /* Movie Search Alamo FireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Movie Search Alamo FireTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE240D31C9500E10094DCAD /* PokeDex.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeDex.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE240D71C9500E10094DCAD /* Movie_Search_Alamo_FireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie_Search_Alamo_FireTests.swift; sourceTree = "<group>"; };
 		EAE240D91C9500E10094DCAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAE240DE1C9500E10094DCAD /* Movie Search Alamo FireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Movie Search Alamo FireUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE240DE1C9500E10094DCAD /* PokeDex.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeDex.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE240E21C9500E10094DCAD /* Movie_Search_Alamo_FireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie_Search_Alamo_FireUITests.swift; sourceTree = "<group>"; };
 		EAE240E41C9500E10094DCAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,9 +113,9 @@
 		EAE240C01C9500E10094DCAD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EAE240BF1C9500E10094DCAD /* Movie Search Alamo Fire.app */,
-				EAE240D31C9500E10094DCAD /* Movie Search Alamo FireTests.xctest */,
-				EAE240DE1C9500E10094DCAD /* Movie Search Alamo FireUITests.xctest */,
+				EAE240BF1C9500E10094DCAD /* PokeDex.app */,
+				EAE240D31C9500E10094DCAD /* PokeDex.xctest */,
+				EAE240DE1C9500E10094DCAD /* PokeDex.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,6 +126,7 @@
 				EAE240C21C9500E10094DCAD /* AppDelegate.swift */,
 				EAE240C41C9500E10094DCAD /* ViewController.swift */,
 				EAE240C61C9500E10094DCAD /* Main.storyboard */,
+				EA03504C1D84ECF5009F8689 /* pokeball.png */,
 				EAE240C91C9500E10094DCAD /* Assets.xcassets */,
 				EAE240CB1C9500E10094DCAD /* LaunchScreen.storyboard */,
 				EAE240CE1C9500E10094DCAD /* Info.plist */,
@@ -152,9 +155,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EAE240BE1C9500E10094DCAD /* Movie Search Alamo Fire */ = {
+		EAE240BE1C9500E10094DCAD /* PokeDex */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EAE240E71C9500E10094DCAD /* Build configuration list for PBXNativeTarget "Movie Search Alamo Fire" */;
+			buildConfigurationList = EAE240E71C9500E10094DCAD /* Build configuration list for PBXNativeTarget "PokeDex" */;
 			buildPhases = (
 				1550AD9B84F210DF5D44D639 /* Check Pods Manifest.lock */,
 				EAE240BB1C9500E10094DCAD /* Sources */,
@@ -167,14 +170,14 @@
 			);
 			dependencies = (
 			);
-			name = "Movie Search Alamo Fire";
+			name = PokeDex;
 			productName = "Movie Search Alamo Fire";
-			productReference = EAE240BF1C9500E10094DCAD /* Movie Search Alamo Fire.app */;
+			productReference = EAE240BF1C9500E10094DCAD /* PokeDex.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EAE240D21C9500E10094DCAD /* Movie Search Alamo FireTests */ = {
+		EAE240D21C9500E10094DCAD /* PokeDexTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EAE240EA1C9500E10094DCAD /* Build configuration list for PBXNativeTarget "Movie Search Alamo FireTests" */;
+			buildConfigurationList = EAE240EA1C9500E10094DCAD /* Build configuration list for PBXNativeTarget "PokeDexTests" */;
 			buildPhases = (
 				EAE240CF1C9500E10094DCAD /* Sources */,
 				EAE240D01C9500E10094DCAD /* Frameworks */,
@@ -185,14 +188,14 @@
 			dependencies = (
 				EAE240D51C9500E10094DCAD /* PBXTargetDependency */,
 			);
-			name = "Movie Search Alamo FireTests";
+			name = PokeDexTests;
 			productName = "Movie Search Alamo FireTests";
-			productReference = EAE240D31C9500E10094DCAD /* Movie Search Alamo FireTests.xctest */;
+			productReference = EAE240D31C9500E10094DCAD /* PokeDex.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EAE240DD1C9500E10094DCAD /* Movie Search Alamo FireUITests */ = {
+		EAE240DD1C9500E10094DCAD /* PokeDexUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EAE240ED1C9500E10094DCAD /* Build configuration list for PBXNativeTarget "Movie Search Alamo FireUITests" */;
+			buildConfigurationList = EAE240ED1C9500E10094DCAD /* Build configuration list for PBXNativeTarget "PokeDexUITests" */;
 			buildPhases = (
 				EAE240DA1C9500E10094DCAD /* Sources */,
 				EAE240DB1C9500E10094DCAD /* Frameworks */,
@@ -203,9 +206,9 @@
 			dependencies = (
 				EAE240E01C9500E10094DCAD /* PBXTargetDependency */,
 			);
-			name = "Movie Search Alamo FireUITests";
+			name = PokeDexUITests;
 			productName = "Movie Search Alamo FireUITests";
-			productReference = EAE240DE1C9500E10094DCAD /* Movie Search Alamo FireUITests.xctest */;
+			productReference = EAE240DE1C9500E10094DCAD /* PokeDex.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -234,7 +237,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EAE240BA1C9500E10094DCAD /* Build configuration list for PBXProject "Movie Search Alamo Fire" */;
+			buildConfigurationList = EAE240BA1C9500E10094DCAD /* Build configuration list for PBXProject "PokeDex" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -247,9 +250,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EAE240BE1C9500E10094DCAD /* Movie Search Alamo Fire */,
-				EAE240D21C9500E10094DCAD /* Movie Search Alamo FireTests */,
-				EAE240DD1C9500E10094DCAD /* Movie Search Alamo FireUITests */,
+				EAE240BE1C9500E10094DCAD /* PokeDex */,
+				EAE240D21C9500E10094DCAD /* PokeDexTests */,
+				EAE240DD1C9500E10094DCAD /* PokeDexUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAE240CD1C9500E10094DCAD /* LaunchScreen.storyboard in Resources */,
+				EA03504D1D84ECF5009F8689 /* pokeball.png in Resources */,
 				EAE240CA1C9500E10094DCAD /* Assets.xcassets in Resources */,
 				EAE240C81C9500E10094DCAD /* Main.storyboard in Resources */,
 			);
@@ -360,12 +364,12 @@
 /* Begin PBXTargetDependency section */
 		EAE240D51C9500E10094DCAD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EAE240BE1C9500E10094DCAD /* Movie Search Alamo Fire */;
+			target = EAE240BE1C9500E10094DCAD /* PokeDex */;
 			targetProxy = EAE240D41C9500E10094DCAD /* PBXContainerItemProxy */;
 		};
 		EAE240E01C9500E10094DCAD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EAE240BE1C9500E10094DCAD /* Movie Search Alamo Fire */;
+			target = EAE240BE1C9500E10094DCAD /* PokeDex */;
 			targetProxy = EAE240DF1C9500E10094DCAD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -476,10 +480,14 @@
 			baseConfigurationReference = 2507A48DE0CE0D0FEC3F3970 /* Pods-Movie Search Alamo Fire.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Movie Search Alamo Fire/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinjnguyen.Movie-Search-Alamo-Fire";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinjnguyen.pokedex;
+				PRODUCT_NAME = PokeDex;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -488,10 +496,14 @@
 			baseConfigurationReference = 619A6BAC772E3529DE0290DC /* Pods-Movie Search Alamo Fire.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Movie Search Alamo Fire/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinjnguyen.Movie-Search-Alamo-Fire";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevinjnguyen.pokedex;
+				PRODUCT_NAME = PokeDex;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -502,8 +514,8 @@
 				INFOPLIST_FILE = "Movie Search Alamo FireTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinjnguyen.Movie-Search-Alamo-FireTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movie Search Alamo Fire.app/Movie Search Alamo Fire";
+				PRODUCT_NAME = PokeDex;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokeDex.app/PokeDex";
 			};
 			name = Debug;
 		};
@@ -514,8 +526,8 @@
 				INFOPLIST_FILE = "Movie Search Alamo FireTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinjnguyen.Movie-Search-Alamo-FireTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movie Search Alamo Fire.app/Movie Search Alamo Fire";
+				PRODUCT_NAME = PokeDex;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokeDex.app/PokeDex";
 			};
 			name = Release;
 		};
@@ -525,7 +537,7 @@
 				INFOPLIST_FILE = "Movie Search Alamo FireUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinjnguyen.Movie-Search-Alamo-FireUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PokeDex;
 				TEST_TARGET_NAME = "Movie Search Alamo Fire";
 				USES_XCTRUNNER = YES;
 			};
@@ -537,7 +549,7 @@
 				INFOPLIST_FILE = "Movie Search Alamo FireUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kevinjnguyen.Movie-Search-Alamo-FireUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PokeDex;
 				TEST_TARGET_NAME = "Movie Search Alamo Fire";
 				USES_XCTRUNNER = YES;
 			};
@@ -546,7 +558,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EAE240BA1C9500E10094DCAD /* Build configuration list for PBXProject "Movie Search Alamo Fire" */ = {
+		EAE240BA1C9500E10094DCAD /* Build configuration list for PBXProject "PokeDex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EAE240E51C9500E10094DCAD /* Debug */,
@@ -555,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EAE240E71C9500E10094DCAD /* Build configuration list for PBXNativeTarget "Movie Search Alamo Fire" */ = {
+		EAE240E71C9500E10094DCAD /* Build configuration list for PBXNativeTarget "PokeDex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EAE240E81C9500E10094DCAD /* Debug */,
@@ -564,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EAE240EA1C9500E10094DCAD /* Build configuration list for PBXNativeTarget "Movie Search Alamo FireTests" */ = {
+		EAE240EA1C9500E10094DCAD /* Build configuration list for PBXNativeTarget "PokeDexTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EAE240EB1C9500E10094DCAD /* Debug */,
@@ -573,7 +585,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EAE240ED1C9500E10094DCAD /* Build configuration list for PBXNativeTarget "Movie Search Alamo FireUITests" */ = {
+		EAE240ED1C9500E10094DCAD /* Build configuration list for PBXNativeTarget "PokeDexUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EAE240EE1C9500E10094DCAD /* Debug */,

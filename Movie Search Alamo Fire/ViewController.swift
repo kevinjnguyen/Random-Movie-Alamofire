@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Movie Search Alamo Fire
+//  PokeDex
 //
-//  Created by Kevin Nguyen on 3/12/16.
+//  Created by Kevin Nguyen on 9/10/16.
 //  Copyright © 2016 Kevin Nguyen. All rights reserved.
 //
 
@@ -12,18 +12,24 @@ import SwiftyJSON
 
 
 class ViewController: UIViewController {
-
-    let end_point_base : String = "https://api.themoviedb.org/"
-    let append_api_key : String = "?api_key=8776cd8658f49f0ec71d7b77c9a7bace"
-    let version : String = "3/"
+    // Initialize the UI Bindings.
+    @IBOutlet weak var userInput: UITextField!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var heightLabel: UILabel!
+    @IBOutlet weak var weightLabel: UILabel!
+    @IBOutlet weak var pokeDexID: UILabel!
+    @IBOutlet weak var firstMoveLabel: UILabel!
     
-    var pastGenerated : Int = 0
-
-    @IBOutlet weak var labelMovieTitle: UILabel!
-    @IBOutlet weak var labelMovieDescription: UILabel!
+    @IBOutlet weak var pokemonData: UILabel!
+    
+    // Init the API End Point
+    let pokeAPI_BASE = "http://pokeapi.co/api/v2/"
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Code to disable the keyboard on a tap not currently defined.
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        view.addGestureRecognizer(tap)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -32,35 +38,54 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func randomizeMovie(sender: UIButton) {
-        randomMovie()
+    // Function called when Search Button is clicked
+    @IBAction func search(sender: UIButton) {
+        // Grab the current user input.
+        let currentUserInput = userInput.text!
+        // Create the new API End point based on the base and user input.
+        let GET_url_endpoint = pokeAPI_BASE + "pokemon/" + currentUserInput + "/"
+        // Contact the API and update the DOM.
+        pokeAPI(GET_url_endpoint)
     }
     
-    func randomMovie(){
-        let specify_endpoint : String = "movie/now_playing"
-        let request_endpoint = end_point_base + version + specify_endpoint + append_api_key
-        
-        Alamofire.request(.GET, request_endpoint)
+    // Function to connect with the PokeAPI and request the data.
+    func pokeAPI(query: String) {
+        // Init the Alamofire Module and use the GET Request.
+        Alamofire.request(.GET, query)
+            // Call require.
             .responseJSON { response in
+                // Create a switch case based on the asynchronuous call of the data.
                 switch response.result {
+                    // If there was data returned from the server that did not result in error.
                 case .Success(let data):
+                    // Using SwiftJSON convert the data from AlamoFire to a usable form in Swift.
                     let json = JSON(data)
-                    let randomMaxBound = json["results"].count
-                    var generateRandom = Int(arc4random_uniform(UInt32(randomMaxBound)))
-                    while(generateRandom == self.pastGenerated ){
-                        generateRandom = Int(arc4random_uniform(UInt32(randomMaxBound)))
-                    }
-                    self.pastGenerated = generateRandom
+                    // Update the DOM elements with the data returned from the async call.
+                    self.nameLabel.text = "Name: " + String(json["name"]).capitalizedString
+                    self.heightLabel.text = "Height: " + String(json["height"])
+                    self.weightLabel.text = "Weight: " + String(json["weight"])
+                    self.pokeDexID.text = "ID: " + String(json["id"])
                     
-                    let name = json["results"][generateRandom]["title"].stringValue
-                    self.labelMovieTitle.text = name
-                    
-                    let description = json["results"][generateRandom]["overview"].stringValue
-                    self.labelMovieDescription.text = description
+                    // Temp set the first move for alteration.
+                    var firstMove = String(json["moves"][0]["move"]["name"])
+                    // Replace all the - in the move with spaces for aesthetic appeal.
+                    firstMove = firstMove.stringByReplacingOccurrencesOfString("-", withString: " ")
+                    // Capitalize each word of the string.
+                    self.firstMoveLabel.text = "First Move: " + firstMove.capitalizedString
+                    // On completion of all these tasks, hide the keyboard.
+                    self.dismissKeyboard()
+                
+                    // If there was an error in the data returned or if the server timed out.
                 case .Failure(let error):
                     print("Request failed with error: \(error)")
-    
+                    
                 }
         }
     }
+    
+    func dismissKeyboard() {
+        //Causes the view (or one of its embedded text fields) to resign the first responder status.
+        view.endEditing(true)
+    }
+    
 }

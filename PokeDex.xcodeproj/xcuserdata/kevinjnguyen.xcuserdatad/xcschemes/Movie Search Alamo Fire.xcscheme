@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EAE240BE1C9500E10094DCAD"
-               BuildableName = "Movie Search Alamo Fire.app"
-               BlueprintName = "Movie Search Alamo Fire"
-               ReferencedContainer = "container:Movie Search Alamo Fire.xcodeproj">
+               BuildableName = "PokeDex.app"
+               BlueprintName = "PokeDex"
+               ReferencedContainer = "container:PokeDex.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EAE240D21C9500E10094DCAD"
-               BuildableName = "Movie Search Alamo FireTests.xctest"
-               BlueprintName = "Movie Search Alamo FireTests"
-               ReferencedContainer = "container:Movie Search Alamo Fire.xcodeproj">
+               BuildableName = "PokeDex.xctest"
+               BlueprintName = "PokeDexTests"
+               ReferencedContainer = "container:PokeDex.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EAE240DD1C9500E10094DCAD"
-               BuildableName = "Movie Search Alamo FireUITests.xctest"
-               BlueprintName = "Movie Search Alamo FireUITests"
-               ReferencedContainer = "container:Movie Search Alamo Fire.xcodeproj">
+               BuildableName = "PokeDex.xctest"
+               BlueprintName = "PokeDexUITests"
+               ReferencedContainer = "container:PokeDex.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EAE240BE1C9500E10094DCAD"
-            BuildableName = "Movie Search Alamo Fire.app"
-            BlueprintName = "Movie Search Alamo Fire"
-            ReferencedContainer = "container:Movie Search Alamo Fire.xcodeproj">
+            BuildableName = "PokeDex.app"
+            BlueprintName = "PokeDex"
+            ReferencedContainer = "container:PokeDex.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EAE240BE1C9500E10094DCAD"
-            BuildableName = "Movie Search Alamo Fire.app"
-            BlueprintName = "Movie Search Alamo Fire"
-            ReferencedContainer = "container:Movie Search Alamo Fire.xcodeproj">
+            BuildableName = "PokeDex.app"
+            BlueprintName = "PokeDex"
+            ReferencedContainer = "container:PokeDex.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EAE240BE1C9500E10094DCAD"
-            BuildableName = "Movie Search Alamo Fire.app"
-            BlueprintName = "Movie Search Alamo Fire"
-            ReferencedContainer = "container:Movie Search Alamo Fire.xcodeproj">
+            BuildableName = "PokeDex.app"
+            BlueprintName = "PokeDex"
+            ReferencedContainer = "container:PokeDex.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
